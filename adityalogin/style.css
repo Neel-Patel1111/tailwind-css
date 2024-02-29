@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #d9908a, #d77972, #d46059, #da4b49, #df4950c2); 
+  }
+
+  .redcorner {
+    position: absolute;
+    top: -19rem;
+    left: -19rem;
+    width: 38rem;
+    aspect-ratio: 1;
+    background-color: #b91c1c;
+    border-radius: 0% 100% 52% 48% / 36% 53% 47% 64%;
+  }
+  .container {
+    max-width: 1440px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 99999999999;
+    margin-top: 10px;
+  }
+
+  .grid-item {
+    display: grid;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    grid-template-columns: 1.5fr 1.5fr;
+    grid-template-rows: 100%;
+    /* gap: 4rem; */
+    background-color: #ffffff;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 16px;
+    height: 90%;
+    width: 90%;
+  }
+
+  .item1{
+    background-color: #FBF2F1;
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 4rem;
+    border-radius:  16px 0 0 16px;
+  }
+
+  .chatbot{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .detail-header{
+    font-size: 3rem;
+    font-weight: 400;
+  }
+
+  .detail-footer{
+    font-size: 1.75rem;
+    font-weight: 200;
+  }
+  .contect{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+      .contect-detail{
+          font-size: 2rem;
+          font-weight: 100;
+      }
+
+    .mobile{
+        font-size: 2.3rem;
+        font-weight: 700;
+        color: #d66154;
+    }
+  }
+
+  .benefits-Chatbot{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .card{
+    border-right: 1px solid;
+    text-align: center;
+    line-height: 1.56;
+
+  }
+  .container2 {
+    padding: 2px 16px;
+    font-size: 1rem;
+  }
+
+  .benefits-card{
+    display: flex;
+
+  }
+
+  .link-generate {
+        font-size: 1.5rem;
+
+    .link{
+        color: #d66154;
+        text-decoration: none;
+      }
+  }
+
+  .item2{
+    /* background-color: #FBF2F1; */
+    /* padding: 3rem 4rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border-radius:  0 16px 16px 0;
+  }
+  
+
+  .header-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7rem;
+    font-size: 4rem;
+    font-weight: 500;
+    color: #902065;
+    
+    .logo-image{
+        width: 11rem;
+    }
+  }
+
+
+  .from-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 1.6rem;
+    gap: 2rem;
+    /* border-top-left-radius: 9999px; */
+    /* border-bottom-left-radius: 9999px; */
+    /* width: fit-content; */
+    /* height: fit-content; */
+  }
+ 
+  .from-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .policy-no {
+    padding: 4px 0.8rem;
+    border: none;
+    border-radius: 0.75rem;
+    border: 2px solid #e5e7eb;
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.75rem;
+  }
+  .password {
+    padding: 4px 0.8rem;
+    border-radius: 0.75rem;
+    width: 100%;
+    font-size: 2rem;
+    border: 2px solid #e5e7eb;
+    line-height: 1.75rem;
+  }
+  .us-label {
+    padding: 4px 0rem;
+  }
+
+  .suggestion{
+    padding: 4px 0rem;
+    color: rgb(122, 122, 122);
+    font-size: 1.2rem;
+  }
+  
+  .pass-label {
+    padding: 4px 0rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .forgetpass {
+    text-align: right;
+    padding-right: 0rem;
+    text-decoration: none;
+    color: black;
+  }
+  .btn-submit {
+    border: 2px solid #e5e7eb;
+    border-radius: 0.75rem;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 2rem;
+    background-color: rgba(202, 36, 24, 0.671);
+    color: white;
+  }
+  

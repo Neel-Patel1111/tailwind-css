@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                
+
+                extend: {
+                    borderRadius: {
+                    '9xl': ' 0% 100% 52% 48% / 36% 53% 47% 64%',
+                    'xl2':'1rem 1rem 1rem 1rem'
+                    
+                },
+                    fontFamily: {
+                        arial: ["Arial"],
+                    },
+                    boxShadow: {
+                        '3xl': 'rgba(0, 0, 0, 0.35) 5px 5px 5px 5px',
+                    },
+                    colors: {
+                        button_color: "rgba(202,36,24,0.671)"
+                    }
+
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <main class=" relative font-arial">
+        <!-- <div class="w-96 bg-red-600 h-96 relative rounded-9xl -top-52 -left-52"></div> -->
+        <div class="absolute h-96 w-96 bg-red-700  -top-52 -left-52 rounded-9xl">          
+        </div>
+        <!-- <div class=" absolute h-96 w-96 bg-red-700  -bottom-52 -right-52 rotate-180 overflow-hidden rounded-9xl">          
+        </div> -->
+        <div class="container mx-auto  relative  z-50 rounded-xl">
+            <div class="flex justify-center items-center h-screen ">
+                <div class="grid grid-cols-2  rounded-xl2 bg-white shadow-3xl mx-20 gap-10">
+
+                    <form action="" class="login flex flex-col justify-center items-center py-10 px-10  rounded-l-full">
+                        <div class="header-detail ">
+                            <div class="py-5 flex justify-center">
+                                <img src="./img/aditya-birla-capital-ltd-logo.png" class="w-3/4 h-2/3" alt="">
+                            </div>
+                            <!-- <div class="text-xl font-semibold text-center">
+                                Welcome to page
+                            </div>
+                            <div class="text-center">
+                                Lorem ipsum dolor sit amet.
+                            </div> -->
+                        </div>
+                        <div class="w-full">
+                            <div>
+                                <div for="password" class="px-2">Username</div>
+                                <input type="text" class="username border-2 rounded-xl text-xl  py-1 px-2 w-full"
+                                    placeholder="username">
+                            </div>
+                            <div class="my-4">
+                                <div for="password" class="px-2 flex justify-between">Password
+                                    <div class="text-right pr-2">
+                                    <a href="" class="">Forget Password ?</a>
+                                    </div>
+                                </div>
+                                <input type="password" class="password border-2 rounded-xl text-xl  py-1 px-2 w-full"
+                                    placeholder="password">
+                            </div>
+                            <!-- <div class="text-right pr-2">
+                                <a href="#" class="">Forget Password ?</a>
+                            </div> -->
+                            <div class="">
+                                <button type="submit" class="border-2 rounded-xl bg-button_color text-xl py-1 px-2 w-full">
+                                    Sign In
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <div
+                        class="relative flex flex-col items-center py-20 px-10 justify-center z-10 bg-cover
+                    bg-no-repeat rounded-r-xl
+                    bg-center bg-[linear-gradient(15deg,rgba(202,36,24,0.671),rgba(202,50,83,0.479)),url('./img/life-insurance-for-you-and-your-family.webp')]">
+                        <div class="flex flex-col items-center  justify-center text-white">
+                            
+                            <div class="py-1 px-2">Aditya Birla Capital</div>
+                            <div class="px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sapiente
+                                repellendus minima! Magni in atque inventore optio vitae ea laborum!</div>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                
+            </div>
+            
+        </div>
+        
+    </main>
+    <!-- <div class="w-96 h-96 bg-red-700 relative left-96 -right-96 rounded-full"></div> -->
+</body>
+
+</html>

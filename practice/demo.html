@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="https://cdn.tailwindcss.com"></script>
+
+	<style>
+		.container {
+			background-color: rgb(2, 201, 118);
+			color: white;
+		}
+
+		h2 {
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<h2 style="color:green">
+		GeeksforGeeks
+	</h2>
+	<br />
+
+	<div class="container mx-auto py-35 px-20">
+		This is px-20 class
+	</div>
+
+	<div class="columns-2">
+		<p>Well, let me tell you something, ...</p>
+		<p class="hover:break-before-column">Sure, go ahead, laugh...</p>
+		<p>Maybe we can live without...</p>
+		<p>Look. If you think this is...</p>
+	</div>
+
+
+	<div class="columns-2">
+		<p>Well, let me tell you something, ...</p>
+		<p class="hover:break-inside-avoid-column">Sure, go ahead, laugh...</p>
+		<p>Maybe we can live without...</p>
+		<p>Look. If you think this is...</p>
+	</div>
+	<hr>
+	<hr>
+	<hr>
+	<hr>
+
+	<div class="py-2 columns-3">
+		<span class="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+			Hello<br />
+			World
+		</span><br>
+
+		<span class="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+			Hello<br />
+			World
+		</span><br>
+
+		<div class="box-border w-14  border-4 ...">
+			<span
+				class="box-decoration-clone hover:box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+				Hello<br />
+				World
+			</span>
+			<!-- ... -->
+		</div>
+	</div>
+
+	<hr>
+	<div class="display md:mx-auto">
+		Topic:display
+	</div>
+	<hr>
+	<div>
+		When controlling the flow of text, using the CSS property
+		<span class="inline">display: inline</span>
+		will cause the text inside the element to wrap normally.
+
+		While using the property <span class="inline-block">display: inline-block</span>
+		will wrap the element to prevent the text inside from extending beyond its parent.
+
+		Lastly, using the property <span class="block">display: block</span>
+		will put the element on its own line and fill its parent.
+	</div>
+	<hr>
+	<hr>
+	<hr>
+	<hr>
+	<hr>
+	<div class="p-4">
+		<div class="flow-root ...">
+			<div class="my-4 ...">Well, let me tell you something, lorem</div>
+		</div>
+		<div class="flow-root ...">
+			<div class="my-4 ...">Sure, go ahead, laugh if you want...</div>
+		</div>
+	</div>
+	<div class="p-5">
+
+		<span class="inline-grid grid-cols-3 gap-4  ">
+			<span class="bg-black text-white">01</span>
+			<span class="bg-black text-white">02</span>
+			<span class="bg-black text-white">03</span>
+			<span>04</span>
+			<span>05</span>
+			<span>06</span>
+		  </span>
+		  <span class="inline-grid grid-cols-3 gap-4">
+			<span>01</span>
+			<span>02</span>
+			<span>03</span>
+			<span>04</span>
+			<span>05</span>
+			<span>06</span>
+		  </span>
+
+	</div>
+
+
+	<div class="p-7 bg-black">
+		<div class="table w-full ... text-white">
+			<div class="table-header-group ...">
+			  <div class="table-row">
+				<div class="table-cell text-left ...">Song</div>
+				<div class="table-cell text-left ...">Artist</div>
+				<div class="table-cell text-left ...">Year</div>
+			  </div>
+			</div>
+			<div class="table-row-group">
+			  <div class="table-row">
+				<div class="table-cell ...">The Sliding Mr. Bones (Next Stop, Pottersville)</div>
+				<div class="table-cell ...">Malcolm Lockyer</div>
+				<div class="table-cell ...">1961</div>
+			  </div>
+			  <div class="table-row">
+				<div class="table-cell ...">Witchy Woman</div>
+				<div class="table-cell ...">The Eagles</div>
+				<div class="table-cell ...">1972</div>
+			  </div>
+			  <div class="table-row">
+				<div class="table-cell ...">Shining Star</div>
+				<div class="table-cell ...">Earth, Wind, and Fire</div>
+				<div class="table-cell ...">1975</div>
+			  </div>
+			</div>
+		  </div>
+	</div>
+	<div class="p-7">
+		<article>
+			<img class="float-left px-3 ..." src="./img/img1.jpeg">
+			<img class="float-right px-3" src="./img/img2.jpeg">
+			<p class="clear-left hover:clear-none">Maybe we can live without libraries Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate placeat assumenda porro libero sint dolorum hic at sequi repellendus tempora ea sapiente temporibus fugiat vitae, consequuntur nesciunt molestiae officiis aperiam.
+			Iste, minus dicta fuga ullam, beatae, facere soluta quam sapiente obcaecati consequuntur corporis suscipit ex. Quis nihil ad aperiam quod, ut unde labore repellat minima dolorem aliquam fugiat earum eum!
+			Hic error eum cupiditate unde sint soluta minus harum molestias saepe in labore veniam deleniti quas et iste ipsum quos, dignissimos temporibus velit possimus veritatis nihil fugiat doloribus! Voluptatum, consectetur!
+			Vel assumenda accusantium cupiditate! Error a dignissimos inventore debitis autem mollitia, est distinctio vitae excepturi nulla ipsa quia aspernatur nam voluptates magnam in fugiat, ipsam corrupti impedit officia sapiente. Aliquam?
+			Vel assumenda accusantium cupiditate! Error a dignissimos inventore debitis autem mollitia, est distinctio vitae excepturi nulla ipsa quia aspernatur nam voluptates magnam in fugiat, ipsam corrupti impedit officia sapiente. Aliquam?
+			Vel assumenda accusantium cupiditate! Error a dignissimos inventore debitis autem mollitia, est distinctio vitae excepturi nulla ipsa quia aspernatur nam voluptates magnam in fugiat, ipsam corrupti impedit officia sapiente. Aliquam?
+			Eligendi nisi eos aliquid explicabo minus exercitationem suscipit molestiae perspiciatis provident voluptatum tenetur corporis tempora assumenda architecto atque pariatur, odio vitae est. Minima, quae numquam! Sint doloribus dignissimos ab corrupti!...</p>
+		  </article>
+	</div>
+
+	<div class="p-7">
+		<div class="bg-indigo-300 ...">
+			<img class="object-cover h-48 w-96 ..." src="./img/img3.jpeg">
+		  </div>
+	</div>
+	<div class="p-7">
+		<div class="bg-indigo-300 ...">
+			<img class="object-none h-48 w-96 ..." src="./img/img3.jpeg">
+		  </div>
+	</div>
+	<div class="p-7">
+		<div class="bg-indigo-300 ...">
+			<img class="object-scale-down h-48 w-96 ..." src="./img/img3.jpeg">
+		  </div>
+	</div>
+	<div class="p-7">
+		<!-- <div class="bg-indigo-300 ..."> -->
+			<img class="object-none object-top bg-yellow-300 w-24 h-24 ..." src="./img/img4.jpeg">
+		  <!-- </div> -->
+	</div>
+</body>
+
+</html>

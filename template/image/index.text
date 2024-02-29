@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <main>
+        <!-- ---------------------------------------- navbar --------------------------------- -->
+
+        <header>
+            <div class="navbar-section">
+
+                <nav class="navbar navbar-detail">
+                    <div class="container">
+                        <div class="navbar-container">
+                            <a href="index.html" class="brand-name">
+                                <div class="box">
+                                    <div class="box1"></div>
+                                    <div class="box2"></div>
+                                </div>
+                                <span class="b-name">Topic</span>
+                            </a>
+
+                            <div class="navbar-menu">
+                                <ul class="menu-item">
+                                    <li class="item item1">
+                                        <a href="#section-1">Home</a>
+                                    </li>
+                                    <li class="item item2">
+                                        <a href="#Browse-Topics">Browse Topics</a>
+                                    </li>
+                                    <li class="item item3">
+                                        <a href="#work">How IT Works</a>
+                                    </li>
+                                    <li class="item item4">
+                                        <a href="#Faqs">Faqs</a>
+                                    </li>
+                                    <li class="item item5">
+                                        <a href="#">contact</a>
+                                    </li>
+                                    <li class="item item6">
+                                        <a href="#">page</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="user-menu">
+                                <div class="navbar-user">
+                                    <img src="./image/profile.png" alt="profile image" class="user-image">
+                                </div>
+                                <!-- <div class="hamburger">
+                                    <img src="./image/menu (1).png" alt="" class="ham-img">
+                                </div> -->
+                            </div>
+
+                            <!-- <div class="nav-bar">
+                                    <input type="checkbox" id="check">
+                            
+                                        <span class="menu-bar">
+                                            <li class="item item1">
+                                                <a href="#">Home</a>
+                                            </li>
+                                            <li class="item item2">
+                                                <a href="#">Browse Topics</a>
+                                            </li>
+                                            <li class="item item3">
+                                                <a href="#">How IT Works</a>
+                                            </li>
+                                            <li class="item item4">
+                                                <a href="#">Faqs</a>
+                                            </li>
+                                            <li class="item item5">
+                                                <a href="#">contact</a>
+                                            </li>
+                                            <li class="item item6">
+                                                <a href="#">page</a>
+                                            </li>
+                                            <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                                        </span>
+                                        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+                                     
+    
+                            </div> -->
+
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </header>
+
+        <section class="section-1" id="section-1">
+            <div class="container">
+                <div class="section-1-container">
+                    <div>
+                        <h2 class="section-1-header">
+                            Discover. Learn. Enjoy
+                        </h2>
+                        <h4 class="section-1-text">
+                            platform for creatives around the worlds
+                        </h4>
+                    </div>
+
+                    <div class="search-form">
+                        <span>
+                            <img src="./image/search.png" alt="abc" class="search-image">
+                        </span>
+                        <div>
+                            <input type="text" class="search-input" placeholder="Design,code,Marketing,finance ...">
+                        </div>
+                        <div>
+                            <button class="commen-button">search</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-2">
+            <div class="container">
+                <div class="section-2-container">
+                    <div class="grid grid-item">
+                        <div class="item1">
+                            <div class="item-header">
+                                <div class="items">
+                                    <div>
+                                        <h2>
+                                            Web Design
+                                        </h2>
+                                    </div>
+                                    <button class="item-button">14</button>
+                                </div>
+                                <div class="item-detail">
+                                    <p>
+                                        when you search for free CSS template, you will notice that template is one of
+                                        the
+                                        best website
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="item-image">
+                                <img src="./image/undraw_Remote_design_team_re_urdx.png" alt="webdesign"
+                                    class="webdesign-image">
+                            </div>
+                        </div>
+
+                        <div class="item2">
+                            <div class="item-header">
+                                <div class="items">
+                                    <div>
+                                        <h2>
+                                            Finance
+                                        </h2>
+                                    </div>
+                                    <button class="item-button">25</button>
+                                </div>
+
+                                <div class="item-detail">
+                                    <p>
+                                        Topic Listing Template includes homepage, listing page, detail page, and contact
+                                        page. You can feel free to edit and adapt for your CMS requirements
+                                    </p>
+                                    <button class="commen-button">Learn More</button>
+                                </div>
+                            </div>
+
+                            <div class="item2-footer">
+                                <div class="footer-share">
+                                    <h5>Share:</h5>
+                                    <div>
+                                        <span class="span-img">
+                                            <img src="" alt="twitter">
+                                        </span>
+                                        <span class="span-img">
+                                            <img src="" alt="facebook" class="facebook">
+                                        </span>
+                                        <span class="span-img">
+                                            <img src="" alt="pintrest" class="pintrest">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>
+                                        <img src="" alt="save" class="save">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-3" id="Browse-Topics">
+            <div class="container">
+                <div class="section-3-container">
+                    <div class="section-3-header">
+                        Browse Topics
+                    </div>
+                    <div class="section-3-menu">
+                        <ul>
+                            <li class="item item1"><p>Design</p></li>
+                            <li class="item item2"><p>Marketing</p></li>
+                            <li class="item item3"><p>Finance</p></li>
+                            <li class="item item4"><p>Music</p></li>
+                            <li class="item item5"><p>Education</p></li>
+                        </ul>
+                    </div>
+                    <div class="grid grid-item">
+                        <div class="item-grid">
+                            <div class="item-header">
+                                <div class="items">
+                                    <div>
+                                        <h2>
+                                            Web Design
+                                        </h2>
+                                    </div>
+                                    <button class="item-button">14</button>
+                                </div>
+                                <div class="item-detail">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate!
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="item-image">
+                                <img src="./image/undraw_Remote_design_team_re_urdx.png" alt="webdesign"
+                                    class="webdesign-image">
+                            </div>
+                        </div>
+
+                        <div class="item-grid">
+                            <div class="item-header">
+                                <div class="items">
+                                    <div>
+                                        <h2>
+                                            Graphic
+                                        </h2>
+                                    </div>
+                                    <button class="item-button">14</button>
+                                </div>
+                                <div class="item-detail">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="item-image">
+                                <img src="./image/undraw_Redesign_feedback_re_jvm0.png" alt="webdesign"
+                                    class="webdesign-image">
+                            </div>
+                        </div>
+
+                        <div class="item-grid">
+                            <div class="item-header">
+                                <div class="items">
+                                    <div>
+                                        <h2>
+                                            Logo Design
+                                        </h2>
+                                    </div>
+                                    <button class="item-button">14</button>
+                                </div>
+                                <div class="item-detail">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quae!
+                                    </p>
+                                </div>
+
+                                <div class="item-image colleagues">
+                                    <img src="./image/colleagues-working-cozy-office-medium-shot.png" alt="webdesign"
+                                        class="colleagues-image">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-4" id="work">
+            <div class="section-4-bg">
+                <div class="container">
+                    <div class="section-4-container">
+                        <div class="section-header section-4-header">
+                            <h1>
+                                How dose it work ?
+                            </h1>
+                        </div>
+                        <div class="main-detail">
+                            <ul>
+                                <li class="topic">
+                                    <h3>Search your favourite topic</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque
+                                        magnam? Sequi, cupiditate quibusdam alias illum sed esse ad dignissimos libero
+                                        sunt, quisquam numquam aliquam? Voluptas, accusamus omnis?.</p>
+                                </li>
+                                <li class="topic">
+                                    <h3>Bookmark & Keep it for yourself</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque
+                                        magnam? Sequi, cupiditate quibusdam alias illum sed esse ad dignissimos libero
+                                        sunt, quisquam numquam aliquam? Voluptas, accusamus omnis?</p>
+                                </li>
+                                <li class="topic">
+                                    <h3>Read & Enjoy</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque
+                                        magnam? Sequi, cupiditate quibusdam alias illum sed esse ad dignissimos libero
+                                        sunt, quisquam numquam aliquam? Voluptas, accusamus omnis?</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="section-4-footer">
+                            <p>Want to learn more ?</p>
+                            <button class="youtube-button"> Check out Youtube</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-5" id="Faqs">
+            <div class="container">
+                <div class="section-5-container">
+                    <div class="section-5-header">
+                        <h1>Feequently asked questions</h1>
+                    </div>
+                    <div class="main-section">
+                        <div class="main-section-image">
+                            <img src="./image/faq_graphic.jpg" alt="" class="graphic-image">
+                        </div>
+                        <div class="click-dropdown">
+                            <div class="dropdown-item1">
+                                <ul class="menu">
+                                    <li class="item item1">
+                                        <input type="radio" name="menuopt" id="drop1" />
+                                        <label class="opener" for="drop1"><span>What is Topic Listing?</span><span><img
+                                                    src="./image/arrow-down-sign-to-navigate (1).png"
+                                                    class="drodown-image" alt=""></span></label>
+                                        <label class="closer" for="dropclose">What is Topic Listing? </label>
+                                        <ul>
+                                            <p> Topic Listing is free Bootstrap 5 CSS template. You are not allowed to
+                                                redistribute this
+                                                template on any other template collection website without our
+                                                permission. Please contact
+                                                TemplateMo for more detail. Thank you.</p>
+                                        </ul>
+                                    </li>
+                                    <li class="item item1">
+                                        <input type="radio" name="menuopt" id="drop2" />
+                                        <label class="opener" for="drop2">How to find a topic? <span><img
+                                                    src="./image/arrow-down-sign-to-navigate (1).png"
+                                                    class="drodown-image" alt=""></span></label>
+                                        <label class="closer" for="dropclose">How to find a topic?</label>
+                                        <ul>
+                                            <p> Topic Listing is free Bootstrap 5 CSS template. You are not allowed to
+                                                redistribute this
+                                                template on any other template collection website without our
+                                                permission. Please contact
+                                                TemplateMo for more detail. Thank you.</p>
+                                        </ul>
+                                        <input type="radio" name="menuopt" id="dropclose" />
+                                    </li>
+                                    <li class="item item1">
+                                        <input type="radio" name="menuopt" id="drop3" />
+                                        <label class="opener" for="drop3">Dose it need to paid? <span><img
+                                                    src="./image/arrow-down-sign-to-navigate (1).png"
+                                                    class="drodown-image" alt=""></span></label>
+                                        <label class="closer" for="dropclose">Dose it need to paid?</label>
+                                        <ul>
+                                            <p> Topic Listing is free Bootstrap 5 CSS template. You are not allowed to
+                                                redistribute this
+                                                template on any other template collection website without our
+                                                permission. Please contact
+                                                TemplateMo for more detail. Thank you.</p>
+                                        </ul>
+                                        <input type="radio" name="menuopt" id="dropclose" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-6">
+            <div class="container">
+                <div class="section-6-container">
+                    <div class="section-6-header">
+                        <h2>
+                            Get in touch
+                        </h2>
+                    </div>
+                    <div class="section-6-footer">
+                        <div class="google-map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d117507.70561444396!2d72.47298559999999!3d23.01952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1707391921642!5m2!1sen!2sin"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="address-detail">
+                            <div class="office">
+                                <h4>Head office</h4>
+                                <p>
+                                    Bay St &, Larkin St,San Francisco, CA 94109, United States
+                                </p>
+                                <hr>
+                                <p class="section-6-Contact">
+                                    <span>
+                                        Phone
+                                    </span>
+                                    <a href="tel: 123456789">123456789</a>
+                                </p>
+                                <p class="section-6-Contact">
+                                    <span>
+                                        Email
+                                    </span>
+                                    <a href="mailto: 1234567@gmial.com">1234567@gmail.com</a>
+                                </p>
+                            </div>
+
+                            <div class="office">
+                                <h4>Dubai office</h4>
+                                <p>
+                                    Burj Park, Downtown Dubai, United Arab Emirates
+                                </p>
+                                <hr>
+                                <p class="section-6-Contact">
+                                    <span>
+                                        Phone
+                                    </span>
+                                    <a href="tel: 123456789">123456789</a>
+                                </p>
+                                <p class="section-6-Contact">
+                                    <span>
+                                        Email
+                                    </span>
+                                    <a href="mailto: 1234567@gmial.com">1234567@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer-item">
+                        <div class="logo">
+                            <a href="index.html" class="brand-name">
+                                <div class="box">
+                                    <div class="box1"></div>
+                                    <div class="box2"></div>
+                                </div>
+                                <span class="b-name">Topic</span>
+                            </a>
+                        </div>
+                      
+                            <div class="resources">
+                                <div class="title">
+                                    Resources
+                                </div>
+                                <div class="topic">
+                                    <div class="home">
+                                        <h6>Home</h6>
+                                    </div>
+                                    <div class="How-it-work">
+                                        <h6>How it works</h6>
+                                    </div>
+                                    <div class="faqs">
+                                        <h6>FAQs</h6>
+                                    </div>
+                                    <div class="home">
+                                        <h6>Contact</h6>
+                                    </div>
+                                </div>
+                            </div>
+                      
+                    </div>
+
+
+                    <div class="footer-item">
+                        <div class="information">
+                            <div class="title">
+                                Information
+                            </div>
+                            <div class="topic">
+                                <div class="contact">
+                                    <h6>987-987-9871</h6>
+                                </div>
+                                <div class="email">
+                                    <h6>info@compnay.com</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rights">
+                            <div class="lang">
+                                <input type="button" value="English">
+                            </div>
+                            <div class="copy">
+                                Copyright&copy; 2048 Topic Listing Center.All rights reversed.
+                            </div>
+                            <div class="design">
+                                <span>Design:</span>
+                                <span>TemplateMo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+</body>
+
+</html>

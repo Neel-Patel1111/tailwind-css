@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Tailwind css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        colorplat: '#00C9A7'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="max-w-[1250px] bg-colorplat  mx-auto">
+        <div class="container sm:text-3xl lg:text-2xl  mx-auto">
+            <nav>
+                <h1 class="text-white bg-blue-500">
+                    navbar
+                </h1>
+            </nav>
+            <div class="grid grid-rows-4  grid-flow-col gap-5 pt-4 text-center">
+                <h1 class="text-white bg-red-400 hover:scale-100 row-start-2">
+                    Hello1
+                </h1>
+                <h1 class="text-white bg-sky-400 ">
+                    Hello2
+                </h1>
+                <h1 class="text-white bg-red-400 hover:scale-125">
+                    Hello3
+                </h1>
+                <h1 class="text-white bg-sky-400">
+                    Hello4
+                </h1>
+                <h1 class="text-white bg-red-400  row-start-3 row-end-5">
+                    Hello5
+                </h1>
+                <h1 class="text-white bg-sky-400">
+                    Hello6
+                </h1>
+                <h1 class="text-white bg-red-400 col-start-2 col-end-4 row-start-2 row-end-3">
+                    Hello7
+                </h1>
+                <h1 class="text-white bg-sky-400">
+                    Hello8
+                </h1>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
